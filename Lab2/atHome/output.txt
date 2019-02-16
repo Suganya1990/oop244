@@ -1,0 +1,49 @@
+Script started on Thu 31 May 2018 01:56:42 AM EDT
+]0;smaheswaran4@mtrx-node02pd:~/oop244/Lab2/atHome[?1034h[smaheswaran4@mtrx-node02pd atHome]$ ws
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+==========
+Input data
+==========
+Enter the number of Kingdoms: 2
+Kingdom #1: 
+Enter the name of the Kingdom: The_Vale
+Enter the number of people living in The_Vale: 234567
+Kingdom #2: 
+Enter the name of the Kingdom: The_Reach
+Enter the number of people living in The_Reach: 567890
+==========
+
+------------------------------
+The 1st Kingdom entered is
+------------------------------
+The_Vale, population 234567
+------------------------------
+
+==========
+Input data
+==========
+Kingdom #3: 
+Enter the name of the Kingdom: The_Riverlands
+Enter the number of people living in The_Riverlands: 123456
+==========
+
+------------------------------
+Kingdoms of SICT
+------------------------------
+1. The_Vale, population 234567
+2. The_Reach, population 567890
+3. The_Riverlands, population 123456
+------------------------------
+Total population of SICT: 925913
+------------------------------
+
+
+
+[38;5;9m------------------------
+End Testing the Program![0m
+]0;smaheswaran4@mtrx-node02pd:~/oop244/Lab2/atHome[smaheswaran4@mtrx-node02pd atHome]$ exit
+exit
+
+Script done on Thu 31 May 2018 01:57:11 AM EDT

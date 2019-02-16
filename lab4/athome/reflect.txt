@@ -1,0 +1,18 @@
+A safe empty state is when you intialize a member of a function to ether 0, null teminator or any other value.  It is done so that the object and its members are ready to be used once it has been intilizised. You can have more than one safe empty state. For example one constructor can intialize all the members to 0 or null termintator. Another constructor can intialize it to default values ( not 0 or null termintaor) or you can have both in one constructor. The point of an safe empty state it is predefned and the values inside are not garbage that may cause problems down the road. 
+
+2. By using the default constructor that intilizes everything to a safe empty state in the consutructor that took in 5 paramaters nd 2 paramaters. Instead of manually intiailzing it to 0 I used my default constructor. 
+
+3. canTravelWith is a function that is part of the object Passenger and as a result has access to all the private memembers of that object. 
+4. Have to add a null termintator at the last index of the string. 
+5. I have learned to use constructors, I have learned that i can reuse a constructor inside another consturctor using a 'this'. I have learned that you have to manually input null terminator when using strncpy. I have gained a better understanding of creating functions.  
+
+Quiz 
+
+1. do not use privat attributes and get all the info from public methods. 
+2. The examples of operators are 
+uniary  eg ++ or --
+binary eg / or >
+ternary ?:
+3. The purpose of a destructor is to delete deallocate all the dynamic memory when the class goes out of scope or when the program gets terminated. 
+
+

@@ -1,0 +1,18 @@
+Reflect 
+1. It should not return a reference to the object because the function is a consnt and theirfore can not change the sate of the data members. So inorder to have a new value you have to create a new instance. 
+2. Temps are used in the scope of a function smiler to a int I in a for loop. The temp will only be available while the function is in scope, but will get destroyed when the function gets out of scope. 
+3. The simplifications I used were:
+*this = Fraction  --- I used ths everytime i need to set my objects into a safe empty state. 
+*this = *this + rhs; -- I also used this inside of:
+Fraction& Fraction::operator+=(const Fraction& rhs)
+This was also done to minimize code and redunency. 
+4. I have lerned how to use operators and how to over load them. Going into this I did not understand the need for the concept of overload but now I realize how much easier it is to work with objects as a whole. Prior to learning to overload operators inorder to get the multiplication of a fraction you would have to do it outside of the object. 
+Quiz 5 Reflection
+1.  keeping the copy constructor and assignment operator private.
+foo(const Foo&) = delete;
+foo& operator = (const foo& other) = delete
+2. Deep copy is creating a new object and then copying all the elements of an object into the new object. Deep copy makes a completly new object with entirley new instance variables. 
+Shallow copy when you create a copy of an object in another variable from same type. If the object being copied  is a reference object then a shallow copy will only have a referece to that instance .
+3. A friend function is when a helper function gets access to private members(data members and/or member functions) of a class. You can make a helper function a friend function by adding frend:
+	friend Type identfier(type [, type, ...])
+ 

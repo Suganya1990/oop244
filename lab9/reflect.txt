@@ -1,0 +1,7 @@
+Reflect
+
+1. You cant put a template function in the cpp(data.cpp) because it will not be a global function. Template functions are global functions and thus need to  be in the .h files(data.h). Templates need to instantiated inline. The compiler doesn’t know what specialization of the template it’ll needed during compilation because it depends on the source code. The definitions must be provided in a header.
+2.  You can define a template function in the main function as long as its before the main() function. It wont work in the main function or after function.  This is because putting a template function above the main functions is considered to be a global function. 
+3.  Yes you can have done lab3 without using templates the problem is you have to create two separate functions with the same name but different types as parameters one for int and one for double. The benefit of having a template function Is you only need one function that cad do the job of two.  The function will take both double and ints and return the right data type as well. 
+4. Yes both template<typename T> and template <class T> are equivalent to one another. 
+

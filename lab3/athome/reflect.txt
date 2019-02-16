@@ -1,0 +1,12 @@
+Reflection 
+1.  There are two elements the string itself and the nul terminator. 
+2. Overloading – based on the parameter being sent the program will know which function to use. 
+3.  I learned a few things:
+I learned about creating functions and understood that you can call attributes in a class within a function without sending it as a parameter. 
+Quiz 3 Reflection 
+I got two things wrong but it was more not reading the question correctly. 
+I got a mark taken off because I put a question mark. I was not sure of myself, and I wrote a question mark. 
+The second thing was for the example part I put a variable that used a single instant dynamic memory instead of the syntax which is 
+Delete  pointer; 
+
+

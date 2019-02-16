@@ -1,0 +1,28 @@
+Script started on Mon 06 Aug 2018 12:44:24 PM EDT
+]0;smaheswaran4@mtrx-node04pd:~/Milestone/m4m4[?1034h[smaheswaran4@mtrx-node04pd m4m4]$ ms4
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Ctrl^D<ENTER>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sku match
+Product < Perishable
+45|32|131|32
+113.5
+]0;smaheswaran4@mtrx-node04pd:~/Milestone/m4m4[smaheswaran4@mtrx-node04pd m4m4]$ e[[Kexit
+exit
+
+Script done on Mon 06 Aug 2018 12:44:51 PM EDT

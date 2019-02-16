@@ -1,0 +1,13 @@
+Reflect
+1. Hero does not need know about the existence of Superhero as superhero is not used. Superhero is a kind of hero but hero is not a kind of SuperHero so the class Hero does not require anything from the class SuperHero therefore hero does not need it. There is higharchy and Hero is at the top and does not using anything from any other class
+2. Superhero is a kind of hero meaning that it derived from the base hero and therefore requires hero class. Superhero uses the structure of a hero class so not including Hero will break the code.
+3. I think this is because the common class between a Hero and SuperHero is a Hero and if both are not the same class it will choose the base class since both classes have that structure in common. 
+4. True they are all valid. For the first one its straight forward it duel Achilles and Hector. The second one it will do what is in the brackets and the winner will go on to face the winner.
+Winner Hector will face Atalanta and then who ever wins will be the winner.
+
+Quiz 6
+Question 2 I got protected class wrong. Protected means the members can be accessed by the class itself or the derived class. 
+Question 3. The example was not clear in my quiz. For example if a Class person has a set function and a student class also has a set function. Shadowing will occur if student.set is being called. If the current class is student and set function is called the Student will shadow the Person class’s set function. The derived will shadow the base if there is two functions with the same name and the current class is the derived. 
+
+	
+

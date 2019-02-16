@@ -1,0 +1,31 @@
+Reflection
+1. Concrete class are regular clasess where all classes are implemented, abstract classes are class that where the functions are not defined.  If an abstract class is defined it becomes a regular class
+2. . The shadowing occurs when we are determing which class to create based on the if statement. So if its  checking account the CreateAcount will create a checking account and if it’s a saving account it will create a Savings account.
+3. I have learned you need a destructor in you abstract class or it will break the code. 
+I have learned that you use abstract class a way to create better code in a sense that it protects your clases from the client code. Its another layer of security between your code and the client code. 
+Lastly I have learned how to use abstract classes and how to call them. 
+
+Quiz
+
+
+If Virtual  keyword is present, the compiler inserts code that binds the call to most derived version of the member function based on the dynamic type. 
+
+I did not give an example of an abstract class.. 
+iPerson is a base class and the abstract class visible to the client
+Person is a concrete class and is derviced from base class -  not vsible to the client 
+Student is then derived from base class person
+
+
+Class iPerson 
+{
+}
+
+Class Person : public Iperson¨
+{
+}
+
+Class Student : public Student
+{
+}
+
+

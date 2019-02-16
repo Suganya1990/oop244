@@ -1,0 +1,29 @@
+Script started on Tue 22 May 2018 12:47:09 PM EDT
+cornel.barna@********** › ws
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Canada Revenue Agency Account App
+=================================
+
+Please enter your family name: Doe
+Please enter your given name: Jane
+Please enter your social insurance number (0 to quit): 234
+Invalid input! Try again.
+Please enter your social insurance number (0 to quit): 1234567890
+Invalid input! Try again.
+Please enter your social insurance number (0 to quit): 193456787
+----------------------------------------
+Testing the display function
+----------------------------------------
+Family Name: Doe
+Given Name : Jane
+CRA Account: 193456787
+----------------------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+cornel.barna@********** › exit
+exit
+
+Script done on Tue 22 May 2018 12:48:19 PM EDT

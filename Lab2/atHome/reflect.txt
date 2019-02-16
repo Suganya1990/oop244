@@ -1,0 +1,33 @@
+What is namespace? Explain its purpose.
+
+Namespace defines a scope and is a way to organize all your classes, functions and variables so that they don’t conflict with other similarly named classes, functions, and variables. The purpose of the Namespace is to allow large programs to use the same names without confusion and error. For example there an be a variable named count that appears two or more times within in a program but is used differently. Without namespace there can be a collision and subsequently an error when the compiler does not know which count to use. With namespace there can be 3 variables named count but it will within its designated namespace. 
+
+Why are header files needed? Explain?
+Header files only hold function declarations. They are needed so that we don’t have to declare the same function in every file that uses the function. Instead we declare the function in one header file and use #include. The #include tells the preprocessor to copy whatever is in the header file into the main file before it compiles. 
+
+Also this beneficial for standard libraries since it saves the programer time. Instead of creating our own functions that does the same thing like stout or stdin we include standard libraries which allow us to uses these functions. 
+Header files are beneficial because it allows us to be more efficient when writing our code, this is because when you have big program with multiple function declarations all we have to do is write include and the proposer does the rest. 
+
+In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files. 
+
+You don’t compile .h because there is nothing to compile. A header file only holds the function declaration not the definition. .h files are included in the preprosser stage so that they are copied into the.cpp file.  If you compile .h file and then the compiled format will be included in the .cpp then sent to the compiler. It will only cause an error if there are no header safer guards implemented, because then it will cause the header file to be included twice. 
+
+Explain why you should never include a .cpp file in another .cpp file
+The reason why you can’t include a .cpp file in another .cpp file is because you will be defining it more than once. You can only define once in c++ but declare multiple times. 
+
+
+What did you learn in this workshop?
+There are 3 things I learned in this workshop:
+The first thing I learned is how to use matrix. This is the first time I uploaded and compiled on matrix. I had to use filezilla to upload my files onto my matrix account. I also learned how to compile on matrix and run a program. It is very easy to upload and compile. There was some issues but all in all I have a good feel for it.
+The next thing I learned from this lab is how to use header files and how to use .cpp files.  In my IPC144 we never got a chance to cover this (due to not enough time). I think the biggest takeaway from using header files and .cpp files is how clean my code looks and how much easier it is to organize my program maneuver through my program. Before when I wrote a retire program on the main it would get very confusing and a lot of commenting and ctrl+f (to find what I am looking for).
+The other thing I learned from this lab is namespace and how to properly use this function. I thought I had to use operators when I input “using namespace” but I learned that writing “using namespace” eliminates the use of operators. I also learned how to use header guards. I thought I had to name all my header files with the same name when using ifndef but I learned each ifndef should be named different.
+
+
+
+
+Quiz 1 Reflection
+
+In quiz 1 I did not define ‘encapsulation’ correctly. Encapsulation incorporate within a class the structure of data that its objects store and the logic that operates on the data. 
+
+I also did not get what a reference variable. A reference Variable is an name for an existing variable. It does not use any space. I initially wrote that it is a pointer, but a reference is not a pointer, because a reference unlike a pointer needs to be initialized when it is created, once it is initialized to an object you cannot change it, unlike pointers which can.
+
